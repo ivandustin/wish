@@ -1,0 +1,20 @@
+{
+    "name": "wish",
+    "version": "0.1.0",
+    "description": "A general installer builder",
+    "author": {
+        "name": "Ivan Dustin B. Bilon",
+        "email": "ivan22.dust@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ivandustin/wish"
+    },
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "mustache": "4.x"
+    },
+    "bin": {
+        "wish": "./index.js"
+    }
+}
