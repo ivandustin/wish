@@ -99,6 +99,9 @@ function getargs() {
             case 'help':
                 printhelp()
                 return process.exit(0)
+            case 'V':
+                console.log(package.version)
+                return process.exit(0)
             default:
                 settings.staging = value
                 return
@@ -121,12 +124,14 @@ function hash(data) {
 
 function printhelp() {
     var msg = [
-        'Usage: wish <target directory> -n <app name> -m <vendor name> -v <version> [options...]',
+        `Usage: ${package.name} <target directory> -n <app name> -m <vendor name> -v <version> [options...]`,
         'Options:',
         '    -n <name>    Application name',
         '    -m <name>    Vendor name or manufacturer',
         '    -v <version> Semantic version (e.g. 1.2.3)',
         '    --32bit      Optional. If specified, create x86 installer',
+        '    --help       Print help message',
+        '    -V           Print program version',
         '',
         `${package.name} - ${package.description}`,
         '',
