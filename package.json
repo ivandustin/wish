@@ -1,5 +1,5 @@
 {
-    "name": "wish",
+    "name": "wishwish",
     "version": "0.1.0",
     "description": "A general installer builder",
     "author": {
@@ -8,13 +8,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ivandustin/wish"
+        "url": "https://github.com/ivandustin/wishwish"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
         "mustache": "4.x"
     },
     "bin": {
-        "wish": "./index.js"
+        "wishwish": "./index.js"
     }
 }
