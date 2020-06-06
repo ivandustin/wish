@@ -1,7 +1,7 @@
 {
     "name": "wishwish",
-    "version": "0.1.0",
-    "description": "A general installer builder",
+    "version": "0.2.0",
+    "description": "Create Windows MSI installer based on Wix Toolset",
     "author": {
         "name": "Ivan Dustin B. Bilon",
         "email": "ivan22.dust@gmail.com"
@@ -16,5 +16,10 @@
     },
     "bin": {
         "wishwish": "./index.js"
-    }
+    },
+    "keywords": [
+        "msi",
+        "installer",
+        "wix"
+    ]
 }

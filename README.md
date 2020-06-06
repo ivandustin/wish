@@ -2,7 +2,7 @@ _Grace and peace to you from our Lord Jesus Christ. Jesus loves you._
 
 # wishwish
 
-A general installer builder
+Create Windows MSI installer based on [Wix Toolset](https://wixtoolset.org/).
 
 ## Usage
 
@@ -10,10 +10,6 @@ A general installer builder
 wishwish path/to/app -n <app name> -m <vendor name> -v 1.0.0
 ```
 
-## Supported OS
-
-Only Windows is supported at the moment.
-
 ## Dependencies
 
-A Wix Toolset must be accessible in the `PATH` environment variable.
+A [Wix Toolset](https://wixtoolset.org/releases/) must be available in your `PATH` environment variable.
