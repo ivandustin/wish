@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const assert = require('assert')
 const fs = require('fs')
 const { spawnSync } = require('child_process')
@@ -127,7 +128,10 @@ function printhelp() {
         '    -v <version> Semantic version (e.g. 1.2.3)',
         '    --32bit      Optional. If specified, create x86 installer',
         '',
-        `${package.name} - ${package.description}`
+        `${package.name} - ${package.description}`,
+        '',
+        '',
+        'GRACE AND PEACE TO YOU FROM OUR LORD JESUS CHRIST. JESUS LOVES YOU.'
     ]
     msg.forEach((str)=> console.log(str))
 }
