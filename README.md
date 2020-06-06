@@ -4,12 +4,18 @@ _Grace and peace to you from our Lord Jesus Christ. Jesus loves you._
 
 Create Windows MSI installer based on [Wix Toolset](https://wixtoolset.org/).
 
+## Install
+
+```bash
+npm install -g wishwish
+```
+
 ## Usage
 
-```sh
+```bash
 wishwish path/to/app -n <app name> -m <vendor name> -v 1.0.0
 ```
 
 ## Dependencies
 
-A [Wix Toolset](https://wixtoolset.org/releases/) must be available in your `PATH` environment variable.
+Download the [Wix Toolset](https://wixtoolset.org/releases/) and add it to your `PATH` environment variable.
